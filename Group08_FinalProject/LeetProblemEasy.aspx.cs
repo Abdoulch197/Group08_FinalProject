@@ -13,5 +13,41 @@ namespace Group08_FinalProject
         {
 
         }
-    }
-}
+    
+                protected void btnCalculate_Click(object sender, EventArgs e)
+                {
+                    int[] nums = Array.ConvertAll(txtNums.Text.Split(','), int.Parse);
+                    int target = int.Parse(txtTarget.Text);
+
+                    int[] result = TwoSum(nums, target);
+
+                    if (result != null)
+                    {
+                        lblResult.Text = $"Indices: {result[0]}, {result[1]}";
+                    }
+                    else
+                    {
+                        lblResult.Text = "No solution found!";
+                    }
+                }
+
+                private int[] TwoSum(int[] nums, int target)
+                {
+                    Dictionary<int, int> numIndexMap = new Dictionary<int, int>();
+
+                    for (int i = 0; i < nums.Length; i++)
+                    {
+                        int complement = target - nums[i];
+                        if (numIndexMap.ContainsKey(complement))
+                        {
+                            return new int[] { numIndexMap[complement], i };
+                        }
+                        numIndexMap[nums[i]] = i;
+                    }
+
+                    return null; // No solution found
+                }
+            }
+        }
+  
+

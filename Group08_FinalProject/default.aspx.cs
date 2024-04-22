@@ -13,5 +13,20 @@ namespace Group08_FinalProject
         {
 
         }
+
+        protected void cmdLeetCodeEasy_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetProblemEasy.aspx");
+        }
+
+        protected void cmdLeetCodeMedium_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetProblemMedium.aspx");
+        }
+
+        protected void cmdLeetCodeHard_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LeetProblemHard.aspx");
+        }
     }
 }
