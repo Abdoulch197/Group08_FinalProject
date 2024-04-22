@@ -24,39 +24,39 @@ namespace Group08_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtNums control.
+        /// NumsTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNums;
+        protected global::System.Web.UI.WebControls.TextBox NumsTextBox;
 
         /// <summary>
-        /// txtTarget control.
+        /// TargetTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTarget;
+        protected global::System.Web.UI.WebControls.TextBox TargetTextBox;
 
         /// <summary>
-        /// btnCalculate control.
+        /// CalculateButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalculate;
+        protected global::System.Web.UI.WebControls.Button CalculateButton;
 
         /// <summary>
-        /// lblResult control.
+        /// OutputLiteral control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult;
+        protected global::System.Web.UI.WebControls.Literal OutputLiteral;
     }
 }
