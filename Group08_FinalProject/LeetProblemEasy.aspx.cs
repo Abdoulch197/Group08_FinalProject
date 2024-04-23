@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*
+# Name: Group_08
+# email:pazag@mail.uc.edu, stryjerj@mail.uc.edu,abdoulch@mail.uc.edu
+# Assignment Title: Assignment Final Project Spring 2024
+# Due Date: 04/23/2024
+# Course: IS 3050
+# Semester/Year: Spring 2024
+# Brief Description: In this project, our team demonstrated a mastery of basic C# programming and ASP.Net web
+siteswith the help of LeetCode problems.
+# Citations: Chat open AI, LeetCode TestCase
+# Anything else that's relevant:
+*/
+using System;
 using System.Collections.Generic;
 using System.Web.UI;
 
